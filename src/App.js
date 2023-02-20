@@ -99,7 +99,7 @@ function App() {
   const [open, setOpen] = React.useState(false);
 
 
-  const [openList, setOpenList] = React.useState(true);
+  const [openList, setOpenList] = React.useState(false);
 
   const handleClick = () => {
     setOpenList(!openList);
